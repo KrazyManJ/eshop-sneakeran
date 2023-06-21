@@ -1,0 +1,15 @@
+:root {
+    --footer-height: 50px;
+    --footer-content-min-margin: 30px;
+}
+
+footer {
+    z-index: 10;
+    bottom: 0;
+    position: static;
+    height: var(--footer-height);
+    width: 100%;
+    background: #5F5F5F;
+    line-height: var(--footer-height);
+    margin-top: var(--footer-content-min-margin);
+}
